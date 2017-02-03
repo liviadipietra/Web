@@ -1,0 +1,50 @@
+\documentclass[10pt,a4paper,article]{abntex2}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+
+% Nome dos autores do trabalho
+\author{Grupo: Guilherme Chagas \& Lívia Nascimento}
+\title{CSI477-2016-02 -- Proposta de Trabalho Final}
+\begin{document}
+
+	\maketitle Royalty Joias
+
+	% Descrever um resumo sobre o trabalho.
+	\begin{abstract}
+	O objetivo deste documento é apresentar uma proposta para o trabalho a ser desenvolvido na disciplina CSI477 -- Sistemas WEB I.
+	Este trabalho irá desenvolver o site de uma empresa virtual de Jóias. Buscamos exibir os produtos da empresa por fotos e disponibiliza-los para venda, dando assim a opção de compra e entrega atraves do site. Como é uma micro-empresa, as opções de produtos não esta na casa de centenas.  
+
+	\end{abstract}		
+	
+	% Apresentar o tema.
+	\section{Tema}
+	
+Desenvolvimento de um site para um loja virtual de Joias. O Site será para a visualização de imagens e precos  e atendimento ao cliente.
+
+	% Descrever e limitar o escopo da aplicação.
+	\section{Escopo}
+	
+	Na pagina inicial do site teremos opcao de busca, e uma selecao das joias aleatoriamente. Tambem nesta pagina, opcao de login e cadastro, e um menu horizontal de paginas com os tipos diferentes de joias para serem selecionadas.
+	Teremos as paginas Aliancas, Aneis, Brincos, Colares, Pingentes, Pulseiras, Solitarios e Promocoes. Em cada uma delas, opcoes de organizar por preco e nomes do produto.
+ 	Buscamos espor as joias, separadas por tipos, brincos, aneis, pinjentes, pulseiras e etc, e material como ouro amarelo e branco. Cada imagem ira conter descrição da joia com kilates e tamanhos das pedras, codigo do produto, alem dos valores. Quando selecionado o produto, tera opcoes de quantidade e, os aneis por exemplo, tambem opcao de tamanhos. Depois de selecionar a opcao de comprar, ou adicionar ao carrinho, vamos apresentar formas de pagamento e descontos, alem das opcoes de frete.
+	Em todas as paginas manteremos o cabecalho das paginas, login e carrinho, alem do link com nome da empresa para voltar pra pagina inicial. Tera tambem o rodapé, contendo fale conosco, que direciona para um formulario de envio de email,  quem somos, com uma descricao da empresa,  uma aba de FAQ e uma partes com informacoes de telefone e contato.
+
+
+	% Apresentar restrições de funcionalidades e de escopo.
+	\section{Restrições}
+
+	Neste trabalho não serão considerados pagamentos, e formas de pagamento, somente iremos até o carrinho de compras. Também não vamos tratar as joias em estoque ou não, disponibilizando somente o portifólio. 
+ 
+
+	% Incluir o link do repositório
+	\section{Repositório}
+
+		O trabalho final terá como repositório principal o seguinte endereço: \url{https://github.com/liviadipietra/Web.git}.
+
+	% Referências podem ser incluídas, caso necessário.
+	%\section{Referências}
+
+\end{document}
